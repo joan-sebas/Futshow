@@ -140,6 +140,9 @@
     <Compile Include="frmManejoPartidos.xaml.cs">
       <DependentUpon>frmManejoPartidos.xaml</DependentUpon>
     </Compile>
+    <Compile Include="frmPerfil.xaml.cs">
+      <DependentUpon>frmPerfil.xaml</DependentUpon>
+    </Compile>
     <Compile Include="frmPortada.xaml.cs">
       <DependentUpon>frmPortada.xaml</DependentUpon>
     </Compile>
@@ -155,6 +158,9 @@
     <None Include="prjFutShow_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\cristiano2.png" />
+    <Content Include="Assets\logosinfondo.png" />
+    <Content Include="Assets\messi.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -178,6 +184,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="frmManejoPartidos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmPerfil.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -9,6 +9,24 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image HorizontalAlignment="Center" Height="370" Margin="0,32,0,0" VerticalAlignment="Top" Width="370" AllowDrop="True" />
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF1F474B"/>
+                <GradientStop Color="#FF61F167" Offset="0.52"/>
+                <GradientStop Color="#FFFBFBFB" Offset="0.993"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.FocusVisualPrimaryBrush>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF783232"/>
+                <GradientStop Color="#FFD47E7E" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.FocusVisualPrimaryBrush>
+        <Image HorizontalAlignment="Center" Height="388" Margin="0,16,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/logosinfondo.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="531,378,0,0" Text="Bienvenido a" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="232" FontSize="36" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,518,0,0" Text="Una aplicacion que hara de tu vida futbolistica mucho mas interesante, no necesitas amigos si quieres disfrutar de uno de los deportes mas populares.. EL FUTBOL!! Busca en una de nuestras canchas disponibles, un partido que se ajuste a tu horario, y listo.. Nosotros buscamos personas que quieran disfrutar de un partido al igual que tu. Dale a iniciar.. y nos vemos en la Cancha Crack!!" TextWrapping="Wrap" VerticalAlignment="Top" Height="183" Width="379" FontSize="16" FontStyle="Italic" FocusVisualPrimaryBrush="#FFFBF3F3" TextAlignment="Justify"/>
+        <Image HorizontalAlignment="Left" Height="441" Margin="88,123,0,0" VerticalAlignment="Top" Width="252" Source="/Assets/messi.png"/>
+        <Image HorizontalAlignment="Left" Height="446" Margin="940,123,0,0" VerticalAlignment="Top" Width="248" Source="/Assets/cristiano2.png"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,431,0,0" Text="FUTSHOW" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" FontWeight="Bold" FontFamily="Bauhaus 93"/>
     </Grid>
 </Page>
