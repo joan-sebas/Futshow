@@ -12,6 +12,6 @@ namespace prjFutShow
         public int IdAmigo { get; set; }
         public DateTime HoraDiaEnvio { get; set; }
         public string Mensaje { get; set; }
-
+       
     }
 }

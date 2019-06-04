@@ -32,7 +32,7 @@ namespace prjFutShow
                 cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 40).Value = nombre;
                 cmd.Parameters.Add("@telefonoCancha", SqlDbType.VarChar, 40).Value = telefono;
                 cmd.Parameters.Add("@direccion", SqlDbType.VarChar, 40).Value = direccion;
-                cmd.Parameters.Add("@descripcion", SqlDbType.VarChar, 40).Value = descripcion;
+                cmd.Parameters.Add("@descripcion", SqlDbType.Text).Value = descripcion;
 
                 cmd.ExecuteNonQuery();
 
@@ -40,8 +40,9 @@ namespace prjFutShow
             }
             catch (Exception ex)
             {
-                throw ex;
                 return false;
+                throw ex;
+                
             }
             finally
             {
@@ -67,10 +68,10 @@ namespace prjFutShow
 
                 clsAdminCancha objAdminCancha = new clsAdminCancha();
 
-                objAdminCancha.Nombre = lector.GetString(0);
-                objAdminCancha.TelefonoCancha = lector.GetString(1);
-                objAdminCancha.direccion = lector.GetString(2);
-                objAdminCancha.Descripcion = lector.GetString(3);
+                objAdminCancha.Nombre = lector.GetString(1);
+                objAdminCancha.TelefonoCancha = lector.GetString(2);
+                objAdminCancha.direccion = lector.GetString(3);
+                objAdminCancha.Descripcion = lector.GetString(4);
 
                 listaAdminCancha.Add(objAdminCancha);
 

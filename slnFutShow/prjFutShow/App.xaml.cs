@@ -33,7 +33,7 @@ namespace prjFutShow
             this.Suspending += OnSuspending;
         }
 
-        public SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=dbFutshow;Integrated Security=True");
+        public SqlConnection con = new SqlConnection(@"Data Source=MARIA;Initial Catalog=dbFutshow;Integrated Security=True");
         /// <summary>
         /// Se invoca cuando el usuario final inicia la aplicación normalmente. Se usarán otros puntos
         /// de entrada cuando la aplicación se inicie para abrir un archivo específico, por ejemplo.
@@ -68,7 +68,7 @@ namespace prjFutShow
                     // Cuando no se restaura la pila de navegación, navegar a la primera página,
                     // configurando la nueva página pasándole la información requerida como
                     //parámetro de navegación
-                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                    rootFrame.Navigate(typeof(frmInicio), e.Arguments);
                 }
                 // Asegurarse de que la ventana actual está activa.
                 Window.Current.Activate();

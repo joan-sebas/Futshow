@@ -8156,11 +8156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joan-\\Documents\\5to\\Lenguaje de Programacion\\slnFutShow\\prjFutShow\\prjFutShow.csproj",
+      "projectUniqueName": "C:\\Users\\joan-\\Documents\\5to\\Lenguaje de Programacion\\Futshow\\Futshow\\slnFutShow\\prjFutShow\\prjFutShow.csproj",
       "projectName": "prjFutShow",
-      "projectPath": "C:\\Users\\joan-\\Documents\\5to\\Lenguaje de Programacion\\slnFutShow\\prjFutShow\\prjFutShow.csproj",
+      "projectPath": "C:\\Users\\joan-\\Documents\\5to\\Lenguaje de Programacion\\Futshow\\Futshow\\slnFutShow\\prjFutShow\\prjFutShow.csproj",
       "packagesPath": "C:\\Users\\joan-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joan-\\Documents\\5to\\Lenguaje de Programacion\\slnFutShow\\prjFutShow\\obj\\",
+      "outputPath": "C:\\Users\\joan-\\Documents\\5to\\Lenguaje de Programacion\\Futshow\\Futshow\\slnFutShow\\prjFutShow\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

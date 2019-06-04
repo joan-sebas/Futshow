@@ -131,6 +131,15 @@
     <Compile Include="clsMensajes.cs" />
     <Compile Include="clsPartido.cs" />
     <Compile Include="clsPerfil.cs" />
+    <Compile Include="frmAdminCancha.xaml.cs">
+      <DependentUpon>frmAdminCancha.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicio.xaml.cs">
+      <DependentUpon>frmInicio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmManejoPartidos.xaml.cs">
+      <DependentUpon>frmManejoPartidos.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -157,6 +166,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="frmAdminCancha.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmInicio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmManejoPartidos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
