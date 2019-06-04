@@ -176,7 +176,7 @@
                         <RadioButton x:ConnectionId='11' x:Name="Pagina1" Style="{StaticResource HamburguerRadioButtonStyle}"
                                      Content="Productos" GroupName="Group1" Tag=""                          />
                         <RadioButton x:ConnectionId='12' x:Name="Pagina2" Style="{StaticResource HamburguerRadioButtonStyle}"
-                                     Content="Factura" GroupName="Group1" Tag=""                            />
+                                     Content="Canchaaa" GroupName="Group1" Tag=""                            />
                         <RadioButton x:ConnectionId='13' x:Name="Pagina3" Style="{StaticResource HamburguerRadioButtonStyle}"
                                      Content="Cancha" GroupName="Group1" Tag=""                            />
 

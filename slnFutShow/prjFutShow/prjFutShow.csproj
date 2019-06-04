@@ -140,6 +140,9 @@
     <Compile Include="frmManejoPartidos.xaml.cs">
       <DependentUpon>frmManejoPartidos.xaml</DependentUpon>
     </Compile>
+    <Compile Include="frmPortada.xaml.cs">
+      <DependentUpon>frmPortada.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -175,6 +178,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="frmManejoPartidos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmPortada.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

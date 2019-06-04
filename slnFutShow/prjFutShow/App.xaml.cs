@@ -33,7 +33,7 @@ namespace prjFutShow
             this.Suspending += OnSuspending;
         }
 
-        public SqlConnection con = new SqlConnection(@"Data Source=MARIA;Initial Catalog=dbFutshow;Integrated Security=True");
+        public SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=dbFutshow;Integrated Security=True");
         /// <summary>
         /// Se invoca cuando el usuario final inicia la aplicación normalmente. Se usarán otros puntos
         /// de entrada cuando la aplicación se inicie para abrir un archivo específico, por ejemplo.
